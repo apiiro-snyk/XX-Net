@@ -4,3 +4,4 @@ gunicorn
 google-cloud-storage
 appengine-python-standard
 psutil
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
