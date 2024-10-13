@@ -2,3 +2,5 @@ pyOpenSSL
 babel
 jinja2
 googletrans==4.0.0-rc1
+httpx>=0.23.0 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
